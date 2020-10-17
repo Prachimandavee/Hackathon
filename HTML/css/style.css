@@ -1,0 +1,89 @@
+body
+{
+        margin: 0;
+		padding: 0;
+		background: url("isha.jpg");
+		background-size : cover;
+		front-family: sans-serif;
+}		
+		
+.login	
+{ 
+   position:absolute;
+   top:30%;
+   left:30%;
+   transform :translate(-50% , -50%) ; 
+   width:350px;
+   height:480px;
+   padding: 80px 40px;  
+   box-sizing:border-box;
+   background:rgba(0,0,0,0.5) ;
+}
+
+
+h2
+{
+
+margin:0;
+padding: 0 0 20px;
+color:#1E90FF;
+text-align:center;
+}
+
+.login p
+{
+	padding:0;
+	margin:0;
+	font-weight:bold;
+	color:#fff;
+}
+
+.login input
+{
+	width:100%;
+	margin-bottom :20px;
+}
+.login input[type="number"], .login input[type="password"]
+{
+	border:none;
+	border-bottom: 2px solid #fff;
+	background :tansparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px
+}
+.login input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	background :rgb(255,38,126);
+	cursor:pointer;
+	border-radius: 20px;
+
+}
+.login input[type="submit"]:hover
+{
+	background :#efed40;
+	color :#262626;
+}
+.login p1
+{
+
+
+}
+
+.login a
+{
+	color:#fff;
+    font-size: 14px;
+   font-weight:bold;
+   text-align:center;
+}
+::placeholder
+{
+	color:rgba(255,255,255,0.5);
+}
