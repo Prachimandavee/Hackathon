@@ -2,19 +2,13 @@ body
 {
         margin: 0;
 		padding: 0;
-		background-color   : #000;
+		background: url("isha.jpg");
 		background-size : cover;
 		front-family: sans-serif;
 }		            
             
 
-p{
-width: 1000px;
-height: 500px;
-margin-left: :20%;
-}
-
-input[type="submit"]
+	input[type="submit"]
 {
 	border:none;
 	outline:none;
@@ -23,7 +17,18 @@ input[type="submit"]
 	font-size:16px;
 	background :rgb(255,38,126);
 	cursor:pointer;
-	border-radius: 50px;
+	border-radius: 20px;
 	
-
 }
+input[type="submit"] :hover
+{
+	background :#efed40;
+	color :#262626;
+}
+ video{
+ 	border: 10px solid #fff;
+
+ 	 box-sizing: border-box;
+
+ }
+ 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head> 
+     <title> video element </title>
+     <link rel="stylesheet" href="css/camera.css">
+<body> 
+      <center>
+        <video id="vid" autoplay></video>
+      
+                     <p></p>
+                     <input type="submit" name="" value="start">
+              
+                      <input type="submit" name= " " value ="Pause">
+                      <input type="submit" name " " value ="stop">
+                    </center>
+                                             
+
+
+        <script>
+
+               navigator.mediaDevices.getUserMedia({
+               video: true
+               })
+            .then(stream => {
+              document.getElementById("vid").srcObject= stream;
+            })
+
+        </script>
+        </body>
+        </html>    

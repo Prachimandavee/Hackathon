@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>webcam acess</title>
+ </head>
+ <body> 
+ 	<center>
+ 	   <video id="vidDisplay" autoplay="true">
+ 	   </video>
+ 	 </center>
+ 	 <script type ="">
+ 	 navigator.getUserMedia=navigator.getUserMedia || navigator.webkitGetUserMedia ||navigator.mozGetUserMedia|| navigator.msGetUserMedia||
+ 	 navigator.oGetUserMedia;
+
+
+ 	 if(navigator.getUserMedia){
+ 	 	navigator.getUserMedia({video:true} ,handleVideo,videoError);
+
+ 	 }
+
+function handleVideo(stream){
+	document.querySlector('#videDisplay.src =')
+}
+
+
+
+
+
+
+</body> 
+</html>    
